@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="3M.png" rel="icon">
+<title>KIRAN AGENCIES</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="login-container">
+<h1>-</h1>
+<p>Sign in to your account</p>
+<div id="error" class="error">Invalid Login Credentials</div>
+<form onsubmit="handleLogin(event)">
+<div class="form-group"><label>USER ID</label><input type="text" id="ID" placeholder="Your Login ID" required></div>
+<div class="form-group"><label>PASSCODE</label><input type="password" id="PD" placeholder="Your Login Password" required></div>
+<button class="login-btn" type="submit">Login</button>
+</form>
+<div class="links"><a href="forgot-password.html">Forgot password?</a><a href="register.html">Create account</a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="3M.png" rel="icon">
+<title>KIRAN AGENCIES</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="card">
+<h1>KIRAN AGENCIES</h1>
+<p>Share details to Create New ID</p>
+<div id="error" class="error">Passwords do not match</div>
+<form onsubmit="register(event)">
+<div class="group"><label>NAME</label><input id="NM" required placeholder="B Bhujanga Rao"></div>
+<div class="group"><label>USER ID</label><input type="text" id="ID" placeholder="Deserved Login ID" required></div>
+<div class="group"><label>PASSWORD</label><input type="password" id="PD" required></div>
+<div class="group"><label>CONFIRM PASSWORD</label><input type="password" id="CPD" required></div>
+<button type="submit">Create Account</button></form>
+<div class="links">Already have an account? <a href="login.html">Login</a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
